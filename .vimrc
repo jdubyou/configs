@@ -1,7 +1,5 @@
-"set rtp+=/usr/local/Cellar/go/1.3/libexec/misc/vim
 set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 autocmd BufWritePost *.go Fmt 
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
